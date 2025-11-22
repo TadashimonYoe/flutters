@@ -30,7 +30,7 @@ workflows:
       
       - name: Build iOS for Simulator
         script: |
-          flutter build ios --simulator --release --no-codesign
+          flutter build ios --simulator --profile --no-codesign
     
     artifacts:
       - build/ios/iphonesimulator/**/*.app
