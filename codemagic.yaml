@@ -7,8 +7,6 @@ workflows:
       flutter: stable
       xcode: latest
       cocoapods: default
-      vars:
-        # No se requieren variables de entorno para simulator build
     scripts:
       - name: Get Flutter packages
         script: |
