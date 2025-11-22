@@ -15,7 +15,10 @@ workflows:
       - name: Install CocoaPods dependencies
         script: |
           cd ios
-          pod install
+          pod cache clean --all
+          rm -rf Pods
+          rm -rf Podfile.lock
+          pod install --repo-update
       
       - name: Build iOS for Simulator
         script: |
