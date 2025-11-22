@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "225698580386",
+    "project_id": "kortotv-cda84",
+    "storage_bucket": "kortotv-cda84.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225698580386:android:944762d150170f54cbd4fb",
+        "android_client_info": {
+          "package_name": "com.iqonic.streamitlaravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225698580386-c94opssn4upen1bpt0j4jioul3cv174n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iqonic.streamitlaravel",
+            "certificate_hash": "a56f26fe27b2be4b56b8db7f85583f4cc5407307"
+          }
+        },
+        {
+          "client_id": "225698580386-ckioeqbuj12jslbpmqjgaujtcaoqharg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz6HoO-EFx7hNMbUfpfYWTjQ3z2sk5OUk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225698580386-ckioeqbuj12jslbpmqjgaujtcaoqharg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
