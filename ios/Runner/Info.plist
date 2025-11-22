@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Streamit</string>
+	<string>Korto TV</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -15,7 +15,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Streamit</string>
+	<string>Korto TV</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -45,15 +45,15 @@
 		<true/>
 	</dict>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Streamit app requires access to microphone for screen cast</string>
+	<string>Korto TV app requires access to microphone for screen cast</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Streamit app requires access to the photo library to upload user profile picture</string>
+	<string>Korto TV app requires access to the photo library to upload user profile picture</string>
 	<key>NSCameraUsageDescription</key>
     <string>Scan your card to add it automatically</string>
     <key>NSCameraUsageDescription</key>
     <string>To scan cards</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
-	<string>Streamit needs this to search items in app</string>
+	<string>Korto TV needs this to search items in app</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UIBackgroundModes</key>
