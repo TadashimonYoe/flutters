@@ -12,6 +12,14 @@ workflows:
         script: |
           flutter pub get
       
+      - name: Prepare Flutter iOS configuration
+        script: |
+          flutter precache --ios
+          cd ios
+          rm -f Flutter/Generated.xcconfig
+          cd ..
+          flutter build ios --config-only
+      
       - name: Install CocoaPods dependencies
         script: |
           cd ios
