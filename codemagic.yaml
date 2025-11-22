@@ -1,0 +1,30 @@
+workflows:
+  ios-simulator-workflow:
+    name: iOS Simulator Build
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      vars:
+        # No se requieren variables de entorno para simulator build
+    scripts:
+      - name: Get Flutter packages
+        script: |
+          flutter pub get
+      
+      - name: Build iOS for Simulator
+        script: |
+          flutter build ios --simulator --debug --no-codesign
+    
+    artifacts:
+      - build/ios/iphonesimulator/**/*.app
+    
+    publishing:
+      email:
+        recipients:
+          - hamadayoe@gmail.com
+        notify:
+          success: true
+          failure: true
